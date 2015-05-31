@@ -42,12 +42,8 @@ void SettingsDialog::accept()
 
 void SettingsDialog::reject()
 {
-    if (!QUrl::fromUserInput(ui->redmineUrlEdit->text()).isValid() || ui->redmineApiKeyEdit->text().isEmpty()) {
-        QMessageBox::critical(this, tr("Validation error"), tr("Please enter correct Redmine URL and authentication credentials"), QMessageBox::Ok);
-    }
-    else {
-        QDialog::reject();
-    }
+    // TODO: replace that with something more clever
+    QDialog::reject();
 }
 
 int SettingsDialog::exec()
@@ -56,7 +52,7 @@ int SettingsDialog::exec()
     settings.beginGroup("redmine connection");
 
     // api key and url fields
-    ui->redmineUrlEdit->setText(settings.value("url", "https://test.prj.adyax.com").toString());
+    ui->redmineUrlEdit->setText(settings.value("url", "https://your.redmine.com").toString());
     ui->redmineApiKeyEdit->setText(settings.value("api_key", "").toString());
 
     // basic auth fields

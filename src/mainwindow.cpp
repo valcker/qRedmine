@@ -16,8 +16,6 @@
 #include <QtGui>
 #include <QtWidgets>
 
-// TODO: this month time entries https://prj.adyax.com/time_entries.xml?key=08cfe5200081c0ddb838cbf548cec74e586d10c4&user_id=1&spent_on=%3E%3C2014-05-01|2014-05-09
-
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow),
