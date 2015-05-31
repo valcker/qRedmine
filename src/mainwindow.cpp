@@ -28,7 +28,7 @@ MainWindow::MainWindow(QWidget *parent) :
     // set default settings
     QCoreApplication::setOrganizationName("Adyax");
     QCoreApplication::setOrganizationDomain("adyax.com");
-    QCoreApplication::setApplicationName("ProtoQt");
+    QCoreApplication::setApplicationName("qRedmine");
 
     createWidgets();
     createActions();
@@ -834,7 +834,7 @@ void MainWindow::removeOldIssues(const QStringList &list)
         m_issuesModel->removeRow(m_issuesModel->findItems(id, Qt::MatchExactly, Globals::IdColumn).first()->row());
 
 //        if (currentIssueId() == id.toInt())
-//            m_trayIcon->showMessage(tr("ProtoQt warning"), tr("Current issue #%1 has been removed from the list of issues because it has been deleted or reassigned to another person.").arg(id), QSystemTrayIcon::Warning);
+//            m_trayIcon->showMessage(tr("qRedmine warning"), tr("Current issue #%1 has been removed from the list of issues because it has been deleted or reassigned to another person.").arg(id), QSystemTrayIcon::Warning);
     }
 }
 

@@ -1,7 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#define APP_NAME "ProtoQt"
+#define APP_NAME "qRedmine"
 
 #include <QMainWindow>
 #include <QString>

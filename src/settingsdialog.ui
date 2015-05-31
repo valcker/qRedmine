@@ -4,8 +4,8 @@
  <widget class="QDialog" name="SettingsDialog">
   <property name="geometry">
    <rect>
-    <x>0</x>
-    <y>0</y>
+    <x>379</x>
+    <y>252</y>
     <width>658</width>
     <height>361</height>
    </rect>
@@ -20,7 +20,7 @@
    <string>ProtoQt Settings</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="application.qrc">
+   <iconset resource="../data/application.qrc">
     <normaloff>:/images/images/redmine_icon.png</normaloff>:/images/images/redmine_icon.png</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
@@ -66,7 +66,7 @@
          <string>Connection</string>
         </property>
         <property name="icon">
-         <iconset resource="application.qrc">
+         <iconset resource="../data/application.qrc">
           <normaloff>:/images/images/redmine_icon.png</normaloff>:/images/images/redmine_icon.png</iconset>
         </property>
        </item>
@@ -75,7 +75,7 @@
          <string>Redmine defaults</string>
         </property>
         <property name="icon">
-         <iconset resource="application.qrc">
+         <iconset resource="../data/application.qrc">
           <normaloff>:/images/images/redmine_icon.png</normaloff>:/images/images/redmine_icon.png</iconset>
         </property>
        </item>
@@ -84,7 +84,7 @@
          <string>Notifications</string>
         </property>
         <property name="icon">
-         <iconset resource="application.qrc">
+         <iconset resource="../data/application.qrc">
           <normaloff>:/images/images/help-hint.png</normaloff>:/images/images/help-hint.png</iconset>
         </property>
         <property name="flags">
@@ -273,7 +273,7 @@
   <tabstop>cancelButton</tabstop>
  </tabstops>
  <resources>
-  <include location="application.qrc"/>
+  <include location="../data/application.qrc"/>
  </resources>
  <connections>
   <connection>

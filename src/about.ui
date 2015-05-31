@@ -58,7 +58,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="application.qrc">:/images/images/redmine_huge_icon.png</pixmap>
+        <pixmap resource="../data/application.qrc">:/images/images/redmine_huge_icon.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -133,7 +133,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="application.qrc"/>
+  <include location="../data/application.qrc"/>
  </resources>
  <connections>
   <connection>
