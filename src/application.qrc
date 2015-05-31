@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/loader.gif</file>
+        <file>images/record.png</file>
+        <file>images/redmine_icon.png</file>
+        <file>images/redmine_icon.gif</file>
+        <file>images/help-hint.png</file>
+        <file>images/redmine_bg_transparent.png</file>
+        <file>images/redmine_icon.icns</file>
+        <file>images/save_filters.png</file>
+        <file>images/redmine_huge_icon.png</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file>style.css</file>
+    </qresource>
+</RCC>
